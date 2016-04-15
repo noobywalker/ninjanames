@@ -14,6 +14,13 @@
 		C2E9E78C1CC12B75008A12A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E9E78A1CC12B75008A12A5 /* LaunchScreen.storyboard */; };
 		C2E9E7971CC12B75008A12A5 /* ninjanameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7961CC12B75008A12A5 /* ninjanameTests.swift */; };
 		C2E9E7A21CC12B75008A12A5 /* ninjanameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7A11CC12B75008A12A5 /* ninjanameUITests.swift */; };
+		C2E9E7B81CC12BCC008A12A5 /* ConvertNinjaNameConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7B11CC12BCC008A12A5 /* ConvertNinjaNameConfigurator.swift */; };
+		C2E9E7B91CC12BCC008A12A5 /* ConvertNinjaNameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7B21CC12BCC008A12A5 /* ConvertNinjaNameInteractor.swift */; };
+		C2E9E7BA1CC12BCC008A12A5 /* ConvertNinjaNameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7B31CC12BCC008A12A5 /* ConvertNinjaNameModels.swift */; };
+		C2E9E7BB1CC12BCC008A12A5 /* ConvertNinjaNamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7B41CC12BCC008A12A5 /* ConvertNinjaNamePresenter.swift */; };
+		C2E9E7BC1CC12BCC008A12A5 /* ConvertNinjaNameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7B51CC12BCC008A12A5 /* ConvertNinjaNameRouter.swift */; };
+		C2E9E7BD1CC12BCC008A12A5 /* ConvertNinjaNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7B61CC12BCC008A12A5 /* ConvertNinjaNameViewController.swift */; };
+		C2E9E7BE1CC12BCC008A12A5 /* ConvertNinjaNameWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E9E7B71CC12BCC008A12A5 /* ConvertNinjaNameWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		C2E9E79D1CC12B75008A12A5 /* ninjanameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninjanameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E9E7A11CC12B75008A12A5 /* ninjanameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninjanameUITests.swift; sourceTree = "<group>"; };
 		C2E9E7A31CC12B75008A12A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E9E7B11CC12BCC008A12A5 /* ConvertNinjaNameConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertNinjaNameConfigurator.swift; path = Scenes/ConvertNinjaName/ConvertNinjaNameConfigurator.swift; sourceTree = "<group>"; };
+		C2E9E7B21CC12BCC008A12A5 /* ConvertNinjaNameInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertNinjaNameInteractor.swift; path = Scenes/ConvertNinjaName/ConvertNinjaNameInteractor.swift; sourceTree = "<group>"; };
+		C2E9E7B31CC12BCC008A12A5 /* ConvertNinjaNameModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertNinjaNameModels.swift; path = Scenes/ConvertNinjaName/ConvertNinjaNameModels.swift; sourceTree = "<group>"; };
+		C2E9E7B41CC12BCC008A12A5 /* ConvertNinjaNamePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertNinjaNamePresenter.swift; path = Scenes/ConvertNinjaName/ConvertNinjaNamePresenter.swift; sourceTree = "<group>"; };
+		C2E9E7B51CC12BCC008A12A5 /* ConvertNinjaNameRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertNinjaNameRouter.swift; path = Scenes/ConvertNinjaName/ConvertNinjaNameRouter.swift; sourceTree = "<group>"; };
+		C2E9E7B61CC12BCC008A12A5 /* ConvertNinjaNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertNinjaNameViewController.swift; path = Scenes/ConvertNinjaName/ConvertNinjaNameViewController.swift; sourceTree = "<group>"; };
+		C2E9E7B71CC12BCC008A12A5 /* ConvertNinjaNameWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertNinjaNameWorker.swift; path = Scenes/ConvertNinjaName/ConvertNinjaNameWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,7 @@
 		C2E9E7801CC12B75008A12A5 /* ninjaname */ = {
 			isa = PBXGroup;
 			children = (
+				C2E9E7AF1CC12B84008A12A5 /* Scenes */,
 				C2E9E7811CC12B75008A12A5 /* AppDelegate.swift */,
 				C2E9E7831CC12B75008A12A5 /* ViewController.swift */,
 				C2E9E7851CC12B75008A12A5 /* Main.storyboard */,
@@ -123,6 +138,28 @@
 				C2E9E7A31CC12B75008A12A5 /* Info.plist */,
 			);
 			path = ninjanameUITests;
+			sourceTree = "<group>";
+		};
+		C2E9E7AF1CC12B84008A12A5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E7B01CC12BBC008A12A5 /* ConvertNinjaName */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		C2E9E7B01CC12BBC008A12A5 /* ConvertNinjaName */ = {
+			isa = PBXGroup;
+			children = (
+				C2E9E7B11CC12BCC008A12A5 /* ConvertNinjaNameConfigurator.swift */,
+				C2E9E7B21CC12BCC008A12A5 /* ConvertNinjaNameInteractor.swift */,
+				C2E9E7B31CC12BCC008A12A5 /* ConvertNinjaNameModels.swift */,
+				C2E9E7B41CC12BCC008A12A5 /* ConvertNinjaNamePresenter.swift */,
+				C2E9E7B51CC12BCC008A12A5 /* ConvertNinjaNameRouter.swift */,
+				C2E9E7B61CC12BCC008A12A5 /* ConvertNinjaNameViewController.swift */,
+				C2E9E7B71CC12BCC008A12A5 /* ConvertNinjaNameWorker.swift */,
+			);
+			name = ConvertNinjaName;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +293,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E9E7BD1CC12BCC008A12A5 /* ConvertNinjaNameViewController.swift in Sources */,
+				C2E9E7BA1CC12BCC008A12A5 /* ConvertNinjaNameModels.swift in Sources */,
+				C2E9E7B91CC12BCC008A12A5 /* ConvertNinjaNameInteractor.swift in Sources */,
+				C2E9E7BB1CC12BCC008A12A5 /* ConvertNinjaNamePresenter.swift in Sources */,
+				C2E9E7B81CC12BCC008A12A5 /* ConvertNinjaNameConfigurator.swift in Sources */,
+				C2E9E7BC1CC12BCC008A12A5 /* ConvertNinjaNameRouter.swift in Sources */,
 				C2E9E7841CC12B75008A12A5 /* ViewController.swift in Sources */,
 				C2E9E7821CC12B75008A12A5 /* AppDelegate.swift in Sources */,
+				C2E9E7BE1CC12BCC008A12A5 /* ConvertNinjaNameWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
